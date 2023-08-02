@@ -1,0 +1,192 @@
+/*.box1{
+    
+    background-color:blue;
+    width:80%;
+    position:relative;
+   
+}
+ul{
+    display:flex;
+    
+}
+li{
+    text-decoration: none;
+    padding:20px;
+}
+.box li:hover{
+    background-color:pink;
+}
+.box1{
+   
+    width: 550px;
+    background-color:salmon;
+    
+}
+.pic{
+    width: 500px;
+   
+
+} 
+.hello{
+    position:absolute;
+    background-color: orange;
+    bottom:0%;
+    opacity: 0;
+    height:0%;
+   
+}
+.box1:hover .hello{
+    opacity:0.5;
+    background-color: red;
+    height:100%;
+    top:100%;
+    transition:0.5s ease;
+}
+.img{
+    position:relative;
+     width:30%;
+}
+.pic{
+    width:100%;
+    height:auto;
+   
+
+} 
+.img1{
+   position:absolute;
+    background-color: pink;
+ 
+    overflow:hidden;
+    bottom:100%;
+    width:100%;
+    height:0%;
+    
+}
+.img:hover .img1{
+    height:100%;
+  bottom:0%;
+    opacity: 0.5;
+    transition:0.2s ease;
+}
+.boo{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(136, 33, 122);
+    border:1px solid rgb(66, 23, 145);
+
+}
+.boo1{
+    height: 300px;
+    width:300px;
+    background-color: rgb(236, 16, 89);
+    border:1px solid rgb(25, 133, 57);
+    
+}
+.boo:hover .boo1{
+    top:0;
+    height:100%;
+    width:100%;
+}
+.picc:hover{
+transition:transform y(-5px) ;
+}
+.tool{
+    position:relative;
+    border:1px solid red;
+    display:inline-block;
+    cursor:pointer;
+}
+.a{
+    position:absolute;
+    width:80px;
+    background-color: Skyblue;
+    color:yellow;
+    padding:20px;
+    text-align: center;
+    bottom:100%;
+    left:-2px;
+    right:-8px;
+    visibility: hidden;
+}
+.a::after{
+    position:absolute;
+    content:"";
+    border-width:10px;
+    border-style:solid;
+    border-color:brown transparent transparent tranparent;
+    top:100%;
+    right:-0.5px;
+   
+
+}
+.tool:hover  .a{
+    visibility: visible;
+
+}
+.tool{
+    position:relative;
+    border:1px solid red;
+    display:inline-block;
+    cursor:pointer;
+}
+.a{
+    position:absolute;
+    width:80px;
+    background-color: Skyblue;
+    color:yellow;
+    padding:20px;
+    text-align: center;
+    top:100%;
+    left:-2px;
+    right:-8px;
+    visibility: hidden;
+}
+.a::after{
+    position:absolute;
+    content:"";
+    border-width:10px;
+    border-style:solid;
+    border-color:transparent  skyblue transparent transparent;
+    bottom:100%;
+    left:-2px;
+    
+   
+
+}
+.tool:hover  .a{
+    visibility: visible;
+
+}
+.img:hover{
+    transform: scaleX(-1);
+    transform: translatey(-50px);
+}*/
+input[type=text]{
+    width:20%;
+    font-size:20px;
+    background-image: url(../Images/me.jpg);
+    background-size: 20px 30px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-color: pink;
+    padding: 10px 10px 10px 40px;
+}
+input[type=text]:Focus{
+    width:100%;
+    transition: 0.5s ease;
+    background-image: url(../Images/p2.jpg);
+}
+input[type=checkbox]{
+accent-color: red;
+}
+img{
+    filter:blur(3px);
+    filter:brightness(120%);
+    filter:contrast(130%);
+    filter:grayscale(100%);
+    filter:invert(100%);
+    filter:sepia(100%);
+    filter:saturate(5);
+    filter:hue-rotate(120deg);
+    opacity: 30%;
+}
